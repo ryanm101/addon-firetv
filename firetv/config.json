@@ -1,0 +1,21 @@
+{
+  "name": "FireTV Server",
+  "version": "1",
+  "slug": "firetv_server",
+  "description": "FireTV server for homeassistant",
+  "webui": "http://[HOST]:[PORT:5556]",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": false,
+  "host_network": false,
+  "ports": {
+    "5556/tcp": 5556
+  },
+  "map": [
+  	"config:rw",
+  ],
+  "options": {},
+  "schema": {},
+  "environment": {}
+}
